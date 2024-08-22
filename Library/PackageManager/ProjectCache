@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638563120162963370
-    m_Hash: 224889839
+      ticks: 638597669330042960
+    m_Hash: 2861477003
   m_LockFileStatus:
     m_FilePath: D:/game/BridgeRace/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638563120163113421
-    m_Hash: 741607062
+      ticks: 638597669330052956
+    m_Hash: 2527903442
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -94,7 +94,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: High-level NavMesh components for building and using NavMeshes at
     runtime and at edit time.
   status: 0
@@ -114,6 +114,7 @@ m_ResolvedPackages:
     - 2.0.0-pre.3
     - 2.0.0-pre.4
     - 2.0.0
+    - 2.0.3
     compatible:
     - 1.1.5
     recommended: 1.1.5
@@ -164,8 +165,8 @@ m_ResolvedPackages:
     name: 
     email: 
     url: 
-  category: Editor
-  type: assets
+  category: 
+  type: 
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
     more about how you can get started for free by visiting https://unity.com/solutions/version-control
@@ -245,10 +246,12 @@ m_ResolvedPackages:
     - 2.2.0
     - 2.3.1
     - 2.4.3
+    - 2.4.4
     compatible:
     - 2.2.0
     - 2.3.1
     - 2.4.3
+    - 2.4.4
     recommended: 2.2.0
     deprecated: []
   dependencies: []
@@ -345,22 +348,22 @@ m_ResolvedPackages:
     version: 9.1.0
   - name: com.unity.2d.common
     version: 8.0.2
-  - name: com.unity.2d.sprite
-    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.12
   - name: com.unity.mathematics
     version: 1.2.6
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.burst
-    version: 1.8.12
   - name: com.unity.collections
     version: 1.2.4
   - name: com.unity.test-framework
@@ -519,7 +522,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Use state-of-the-art machine learning to create intelligent character
     behaviors in any Unity environment (games, robotics, film, etc.).
   status: 0
@@ -570,9 +573,9 @@ m_ResolvedPackages:
   dependencies:
   - name: com.unity.barracuda
     version: 2.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.barracuda
@@ -767,8 +770,8 @@ m_ResolvedPackages:
     name: 
     email: 
     url: 
-  category: Text Rendering
-  type: asset
+  category: 
+  type: 
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -963,7 +966,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   status: 0
@@ -1069,18 +1072,18 @@ m_ResolvedPackages:
     recommended: 1.7.6
     deprecated: []
   dependencies:
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.director
-    version: 1.0.0
   - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -1204,7 +1207,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -3205,7 +3208,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Unity's C# SIMD math library providing vector types and math functions
     with a shader like syntax.
   status: 0
@@ -3281,7 +3284,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Burst is a compiler that translates from IL/.NET bytecode to highly
     optimized native code using LLVM.
   status: 0
@@ -3419,13 +3422,15 @@ m_ResolvedPackages:
     - 1.8.14
     - 1.8.15
     - 1.8.16
+    - 1.8.17
     compatible:
     - 1.8.12
     - 1.8.13
     - 1.8.14
     - 1.8.15
     - 1.8.16
-    recommended: 1.8.16
+    - 1.8.17
+    recommended: 1.8.17
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -3901,7 +3906,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Barracuda is lightweight and cross-platform Neural Net inference library.
     Barracuda supports inference both on GPU and CPU.
   status: 0
@@ -4010,7 +4015,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -4099,7 +4104,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -4203,7 +4208,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Code editor integration for supporting Visual Studio Code as code
     editor for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -4271,7 +4276,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
@@ -4336,7 +4341,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: "The Profile Analyzer tool supports the standard Unity Profiler. You
     can use it to analyze multiple frames and multiple data sets of the CPU data
     in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of a single
@@ -4406,8 +4411,8 @@ m_ResolvedPackages:
     name: 
     email: 
     url: 
-  category: Unity Test Framework
-  type: asset
+  category: 
+  type: 
   description: Test framework for running Edit mode and Play mode tests in Unity.
   status: 0
   errors: []
@@ -4461,6 +4466,7 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.4.4
+    - 1.4.5
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -4481,6 +4487,7 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.4.4
+    - 1.4.5
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -4544,7 +4551,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -4584,9 +4591,11 @@ m_ResolvedPackages:
     - 1.2.3
     - 1.2.4
     - 1.2.5
+    - 1.2.6
     compatible:
     - 1.2.5
-    recommended: 1.2.5
+    - 1.2.6
+    recommended: 1.2.6
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -4648,8 +4657,8 @@ m_ResolvedPackages:
     name: 
     email: 
     url: 
-  category: 2D
-  type: assets
+  category: 
+  type: 
   description: 2D Animation provides all the necessary tooling and runtime components
     for skeletal animation using Sprites.
   status: 0
@@ -4781,6 +4790,7 @@ m_ResolvedPackages:
     - 10.1.0
     - 10.1.1
     - 10.1.2
+    - 10.1.3
     compatible:
     - 9.1.0
     - 9.1.1
@@ -4800,22 +4810,22 @@ m_ResolvedPackages:
   resolvedDependencies:
   - name: com.unity.2d.common
     version: 8.0.2
-  - name: com.unity.2d.sprite
-    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.12
   - name: com.unity.mathematics
     version: 1.2.6
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.burst
-    version: 1.8.12
   - name: com.unity.collections
     version: 1.2.4
   - name: com.unity.test-framework
@@ -4865,7 +4875,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera component
     which ensures your pixel art remains crisp and clear at different resolutions,
     and stable in motion.
@@ -4947,8 +4957,8 @@ m_ResolvedPackages:
     name: 
     email: 
     url: 
-  category: 2D
-  type: assets
+  category: 
+  type: 
   description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop Big)
     file format. The ScriptedImporter is currently targeted for users who wants to
     create multi Sprite character animation using Unity 2D Animation Package.
@@ -5041,33 +5051,33 @@ m_ResolvedPackages:
     recommended: 8.0.5
     deprecated: []
   dependencies:
-  - name: com.unity.2d.animation
-    version: 9.1.0
   - name: com.unity.2d.common
     version: 8.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
+  - name: com.unity.2d.animation
+    version: 9.1.0
   resolvedDependencies:
-  - name: com.unity.2d.animation
-    version: 9.1.0
   - name: com.unity.2d.common
     version: 8.0.2
-  - name: com.unity.2d.sprite
-    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.12
   - name: com.unity.mathematics
     version: 1.2.6
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.burst
-    version: 1.8.12
+  - name: com.unity.2d.animation
+    version: 9.1.0
   - name: com.unity.collections
     version: 1.2.4
   - name: com.unity.test-framework
@@ -5117,8 +5127,8 @@ m_ResolvedPackages:
     name: 
     email: 
     url: 
-  category: 2D
-  type: asset
+  category: 
+  type: 
   description: SpriteShape Runtime & Editor Package contains the tooling and the
     runtime component that allows you to create very organic looking spline based
     2D worlds. It comes with intuitive configurator and a highly performant renderer.
@@ -5204,6 +5214,7 @@ m_ResolvedPackages:
     - 9.0.1
     - 9.0.2
     - 9.0.3
+    - 9.0.4
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
@@ -5216,21 +5227,28 @@ m_ResolvedPackages:
     compatible:
     - 9.0.2
     - 9.0.3
-    recommended: 9.0.3
+    - 9.0.4
+    recommended: 9.0.4
     deprecated: []
   dependencies:
-  - name: com.unity.mathematics
-    version: 1.1.0
   - name: com.unity.2d.common
     version: 8.0.1
+  - name: com.unity.mathematics
+    version: 1.1.0
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.mathematics
-    version: 1.2.6
   - name: com.unity.2d.common
     version: 8.0.2
+  - name: com.unity.burst
+    version: 1.8.12
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
@@ -5238,12 +5256,6 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.burst
-    version: 1.8.12
   - name: com.unity.modules.physics2d
     version: 1.0.0
   keywords:
@@ -5365,8 +5377,8 @@ m_ResolvedPackages:
     name: 
     email: 
     url: 
-  category: 2D
-  type: assets
+  category: 
+  type: 
   description: '2D Tilemap Extras is a package that contains extra scripts for use
     with 2D Tilemap features in Unity. These include custom Tiles and Brushes for
     the Tilemap feature.
@@ -5427,30 +5439,30 @@ m_ResolvedPackages:
     recommended: 3.1.2
     deprecated: []
   dependencies:
-  - name: com.unity.modules.tilemap
+  - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
-  - name: com.unity.ugui
+  - name: com.unity.modules.tilemap
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.tilemap
-    version: 1.0.0
-  - name: com.unity.modules.physics2d
-    version: 1.0.0
-  - name: com.unity.2d.tilemap
-    version: 1.0.0
-  - name: com.unity.modules.uielements
+  - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
+  - name: com.unity.2d.tilemap
     version: 1.0.0
-  - name: com.unity.ugui
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
     version: 1.0.0
   keywords:
   - 2d
@@ -5493,8 +5505,8 @@ m_ResolvedPackages:
     name: 
     email: 
     url: 
-  category: 2D
-  type: assets
+  category: 
+  type: 
   description: 2D Aseprite Importer is a package which enables the import of .aseprite
     files from the Pixel Art tool Aseprite.
   status: 0
@@ -5512,41 +5524,43 @@ m_ResolvedPackages:
     - 1.1.2
     - 1.1.3
     - 1.1.4
+    - 1.1.5
     compatible:
     - 1.1.1
     - 1.1.2
     - 1.1.3
     - 1.1.4
-    recommended: 1.1.4
+    - 1.1.5
+    recommended: 1.1.5
     deprecated: []
   dependencies:
-  - name: com.unity.2d.sprite
-    version: 1.0.0
   - name: com.unity.2d.common
     version: 6.0.6
+  - name: com.unity.2d.sprite
+    version: 1.0.0
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.animation
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.2d.sprite
-    version: 1.0.0
   - name: com.unity.2d.common
     version: 8.0.2
+  - name: com.unity.burst
+    version: 1.8.12
   - name: com.unity.mathematics
     version: 1.2.6
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.burst
-    version: 1.8.12
   keywords:
   - 2d
   - Aseprite
@@ -5593,7 +5607,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
   status: 0
@@ -5665,7 +5679,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
   status: 0
@@ -5726,8 +5740,8 @@ m_ResolvedPackages:
     name: 
     email: 
     url: 
-  category: Libraries
-  type: asset
+  category: 
+  type: 
   description: Custom version of the nunit package build to work with Unity. Used
     by the Unity Test Framework.
   status: 0
@@ -5797,8 +5811,8 @@ m_ResolvedPackages:
     name: 
     email: 
     url: 
-  category: 2D
-  type: assets
+  category: 
+  type: 
   description: 2D Common is a package that contains shared functionalities that are
     used by most of the other 2D packages.
   status: 0
@@ -5852,6 +5866,7 @@ m_ResolvedPackages:
     - 8.0.0
     - 8.0.1
     - 8.0.2
+    - 8.0.3
     - 9.0.0-pre.1
     - 9.0.0-pre.2
     - 9.0.0
@@ -5860,38 +5875,40 @@ m_ResolvedPackages:
     - 9.0.3
     - 9.0.4
     - 9.0.5
+    - 9.0.6
     compatible:
     - 8.0.2
-    recommended: 8.0.2
+    - 8.0.3
+    recommended: 8.0.3
     deprecated: []
   dependencies:
+  - name: com.unity.burst
+    version: 1.7.3
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
     version: 1.1.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
   - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.12
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
-  - name: com.unity.burst
-    version: 1.7.3
-  resolvedDependencies:
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.2.6
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.burst
-    version: 1.8.12
   keywords:
   - 2d
   registry:
@@ -5934,7 +5951,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: A C# collections library providing data structures that can be used
     in jobs, and optimized by Burst compiler.
   status: 0
@@ -6007,7 +6024,9 @@ m_ResolvedPackages:
     - 2.4.0
     - 2.4.1
     - 2.4.2
+    - 2.4.3
     - 2.5.0-exp.1
+    - 2.5.0-pre.2
     compatible:
     - 1.2.4
     - 1.3.1
@@ -6030,7 +6049,9 @@ m_ResolvedPackages:
     - 2.4.0
     - 2.4.1
     - 2.4.2
+    - 2.4.3
     - 2.5.0-exp.1
+    - 2.5.0-pre.2
     recommended: 1.2.4
     deprecated: []
   dependencies:

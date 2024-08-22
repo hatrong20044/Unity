@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\game\\BridgeRace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{722F92F5-9520-D266-F2B4-E22CF5FE7E9D}|Assembly-CSharp.csproj|d:\\game\\bridgerace\\assets\\_game\\scrips\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{722F92F5-9520-D266-F2B4-E22CF5FE7E9D}|Assembly-CSharp.csproj|d:\\game\\bridgerace\\assets\\_game\\scripstableobject\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{722F92F5-9520-D266-F2B4-E22CF5FE7E9D}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripstableobject\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{722F92F5-9520-D266-F2B4-E22CF5FE7E9D}|Assembly-CSharp.csproj|D:\\game\\BridgeRace\\assets\\_game\\scrips\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{722F92F5-9520-D266-F2B4-E22CF5FE7E9D}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scrips\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{722F92F5-9520-D266-F2B4-E22CF5FE7E9D}|Assembly-CSharp.csproj|D:\\game\\BridgeRace\\assets\\_game\\scrips\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{722F92F5-9520-D266-F2B4-E22CF5FE7E9D}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scrips\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{722F92F5-9520-D266-F2B4-E22CF5FE7E9D}|Assembly-CSharp.csproj|D:\\game\\BridgeRace\\assets\\_game\\scripstableobject\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{722F92F5-9520-D266-F2B4-E22CF5FE7E9D}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripstableobject\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{722F92F5-9520-D266-F2B4-E22CF5FE7E9D}|Assembly-CSharp.csproj|D:\\game\\BridgeRace\\assets\\_game\\scrips\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -130,11 +130,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Bot.cs",
               "DocumentMoniker": "D:\\game\\BridgeRace\\Assets\\_Game\\Scrips\\Bot.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scrips\\Bot.cs",
@@ -160,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Brick.cs",
               "DocumentMoniker": "D:\\game\\BridgeRace\\Assets\\_Game\\Scrips\\Brick.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scrips\\Brick.cs",
@@ -173,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "D:\\game\\BridgeRace\\Assets\\_Game\\ScripsTableObject\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\ScripsTableObject\\CameraFollow.cs",
@@ -181,11 +181,12 @@
               "RelativeToolTip": "Assets\\_Game\\ScripsTableObject\\CameraFollow.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T11:40:09.833Z"
+              "WhenOpened": "2024-06-30T11:40:09.833Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LevelManager.cs",
               "DocumentMoniker": "D:\\game\\BridgeRace\\Assets\\_Game\\Scrips\\Manager\\LevelManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scrips\\Manager\\LevelManager.cs",
@@ -197,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "D:\\game\\BridgeRace\\Assets\\_Game\\Scrips\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scrips\\MainMenu.cs",
@@ -209,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Stage.cs",
               "DocumentMoniker": "D:\\game\\BridgeRace\\Assets\\_Game\\Scrips\\Stage.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scrips\\Stage.cs",
@@ -221,20 +222,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Character.cs",
               "DocumentMoniker": "D:\\game\\BridgeRace\\Assets\\_Game\\Scrips\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scrips\\Character.cs",
               "ToolTip": "D:\\game\\BridgeRace\\Assets\\_Game\\Scrips\\Character.cs",
               "RelativeToolTip": "Assets\\_Game\\Scrips\\Character.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAMAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowDQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T16:52:07.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T16:52:07.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ColorData.cs",
               "DocumentMoniker": "D:\\game\\BridgeRace\\Assets\\_Game\\ScripsTableObject\\ColorData.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\ScripsTableObject\\ColorData.cs",
@@ -246,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\game\\BridgeRace\\Assets\\_Game\\Scrips\\Manager\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scrips\\Manager\\GameManager.cs",
@@ -258,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerBrick.cs",
               "DocumentMoniker": "D:\\game\\BridgeRace\\Assets\\_Game\\Scrips\\PlayerBrick.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scrips\\PlayerBrick.cs",
@@ -270,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Level.cs",
               "DocumentMoniker": "D:\\game\\BridgeRace\\Assets\\_Game\\Scrips\\Level\\Level.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scrips\\Level\\Level.cs",
@@ -294,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "JoystickControl.cs",
               "DocumentMoniker": "D:\\game\\BridgeRace\\Assets\\_Game\\Scrips\\JoystickControl.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scrips\\JoystickControl.cs",
