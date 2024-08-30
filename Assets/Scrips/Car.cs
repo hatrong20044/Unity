@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Car : MonoBehaviour
 {
+    //test
     [SerializeField] private float tocDoXe = 100f;
     private float dauVaoDichuyen;
     private Rigidbody rb;
